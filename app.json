@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/splash.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bitlynx.app"
     },
     "web": {
       "favicon": "./assets/splash.png"
