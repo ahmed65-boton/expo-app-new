@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function Home() {
+    console.log("homepage loaded");
     return (
         <View style={styles.container}>
             <Text>Home Screen</Text>

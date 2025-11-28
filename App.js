@@ -6,7 +6,7 @@ import { Ionicons } from "@expo/vector-icons";
 
 import Home from "./screens/screen1";
 import Settings from "./screens/screen2";
-import ChatScreen from "./screens/cht";
+
 
 const Tab = createBottomTabNavigator();
 
@@ -21,10 +21,10 @@ export default function App() {
             <Ionicons
               name={
                 route.name === "Home"
-            ? "home-outline"
-            : route.name === "Settings"
-            ? "settings-outline"
-            : "chatbubble-outline" // for Chat"
+                  ? "home-outline"
+                  : route.name === "Settings"
+                  ? "settings-outline"
+                  : "help-outline" // fallback for any other route
               }
               size={size}
               color={color}
@@ -36,8 +36,9 @@ export default function App() {
       >
         <Tab.Screen name="Home" component={Home} />
         <Tab.Screen name="Settings" component={Settings} />
-        <Tab.Screen name="Chat" component={ChatScreen} />
+        
       </Tab.Navigator>
     </NavigationContainer>
   );
 }
+ //{/*: "chatbubble-outline" // for Chat"*/}
