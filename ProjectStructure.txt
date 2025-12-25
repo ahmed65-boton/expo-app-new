@@ -1,0 +1,97 @@
+Project Structure Report
+Generated: 2025-12-02 02:48:11
+Project Path: D:\CO Laptop Data\expo-app
+Excluded Folders: node_modules, .expo, dist, build, .git, .vscode, .idea, __pycache__, bin, obj, .gradle, .svn, .hg, .vs, .cxx, .cmake, CMakeFiles, RelWithDebInfo, intermediates, outputs
+Excluded File Extensions: .dll, .exe, .pdb, .obj, .log, .tmp, .o, .a, .so, .bin, .class, .dex, .apk, .aar, .ipa
+================================================================================
+
+.gitignore | Size: 0 MB | Modified: 1985-10-26 13:15:00 | Attributes: Archive
+android | Size: DIR | Modified: 2025-11-23 19:13:08 | Attributes: Directory
+  .gitignore | Size: 0 MB | Modified: 1985-10-26 13:15:00 | Attributes: Archive
+  app | Size: DIR | Modified: 2025-11-23 19:50:59 | Attributes: Directory
+    build.gradle | Size: 0.01 MB | Modified: 2025-11-23 19:00:41 | Attributes: Archive
+    debug.keystore | Size: 0 MB | Modified: 1985-10-26 13:15:00 | Attributes: Archive
+    proguard-rules.pro | Size: 0 MB | Modified: 1985-10-26 13:15:00 | Attributes: Archive
+    src | Size: DIR | Modified: 2025-11-23 19:00:39 | Attributes: Directory
+      debug | Size: DIR | Modified: 2025-11-23 19:00:39 | Attributes: Directory
+        AndroidManifest.xml | Size: 0 MB | Modified: 1985-10-26 13:15:00 | Attributes: Archive
+      main | Size: DIR | Modified: 2025-11-23 19:00:39 | Attributes: Directory
+        AndroidManifest.xml | Size: 0 MB | Modified: 2025-11-23 19:00:41 | Attributes: Archive
+        java | Size: DIR | Modified: 2025-11-23 19:00:39 | Attributes: Directory
+          com | Size: DIR | Modified: 2025-11-23 19:00:40 | Attributes: Directory
+            chqasim | Size: DIR | Modified: 2025-11-23 19:00:40 | Attributes: Directory
+              expoapp | Size: DIR | Modified: 2025-11-23 19:00:40 | Attributes: Directory
+                MainActivity.kt | Size: 0 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+                MainApplication.kt | Size: 0 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+        res | Size: DIR | Modified: 2025-11-23 19:00:41 | Attributes: Directory
+          drawable | Size: DIR | Modified: 2025-11-23 19:00:39 | Attributes: Directory
+            ic_launcher_background.xml | Size: 0 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+            rn_edit_text_material.xml | Size: 0 MB | Modified: 1985-10-26 13:15:00 | Attributes: Archive
+          drawable-hdpi | Size: DIR | Modified: 2025-11-23 19:00:40 | Attributes: Directory
+            splashscreen_logo.png | Size: 0.02 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+          drawable-mdpi | Size: DIR | Modified: 2025-11-23 19:00:41 | Attributes: Directory
+            splashscreen_logo.png | Size: 0.01 MB | Modified: 2025-11-23 19:00:41 | Attributes: Archive
+          drawable-xhdpi | Size: DIR | Modified: 2025-11-23 19:00:41 | Attributes: Directory
+            splashscreen_logo.png | Size: 0.02 MB | Modified: 2025-11-23 19:00:41 | Attributes: Archive
+          drawable-xxhdpi | Size: DIR | Modified: 2025-11-23 19:00:41 | Attributes: Directory
+            splashscreen_logo.png | Size: 0.04 MB | Modified: 2025-11-23 19:00:41 | Attributes: Archive
+          drawable-xxxhdpi | Size: DIR | Modified: 2025-11-23 19:00:41 | Attributes: Directory
+            splashscreen_logo.png | Size: 0.05 MB | Modified: 2025-11-23 19:00:41 | Attributes: Archive
+          mipmap-anydpi-v26 | Size: DIR | Modified: 2025-11-23 19:00:40 | Attributes: Directory
+            ic_launcher_round.xml | Size: 0 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+            ic_launcher.xml | Size: 0 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+          mipmap-hdpi | Size: DIR | Modified: 2025-11-23 19:00:40 | Attributes: Directory
+            ic_launcher_foreground.webp | Size: 0.01 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+            ic_launcher_round.webp | Size: 0 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+            ic_launcher.webp | Size: 0 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+          mipmap-mdpi | Size: DIR | Modified: 2025-11-23 19:00:40 | Attributes: Directory
+            ic_launcher_foreground.webp | Size: 0 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+            ic_launcher_round.webp | Size: 0 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+            ic_launcher.webp | Size: 0 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+          mipmap-xhdpi | Size: DIR | Modified: 2025-11-23 19:00:40 | Attributes: Directory
+            ic_launcher_foreground.webp | Size: 0.01 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+            ic_launcher_round.webp | Size: 0 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+            ic_launcher.webp | Size: 0 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+          mipmap-xxhdpi | Size: DIR | Modified: 2025-11-23 19:00:40 | Attributes: Directory
+            ic_launcher_foreground.webp | Size: 0.02 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+            ic_launcher_round.webp | Size: 0.01 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+            ic_launcher.webp | Size: 0.01 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+          mipmap-xxxhdpi | Size: DIR | Modified: 2025-11-23 19:00:40 | Attributes: Directory
+            ic_launcher_foreground.webp | Size: 0.02 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+            ic_launcher_round.webp | Size: 0.01 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+            ic_launcher.webp | Size: 0.01 MB | Modified: 2025-11-23 19:00:40 | Attributes: Archive
+          values | Size: DIR | Modified: 2025-11-23 19:00:39 | Attributes: Directory
+            colors.xml | Size: 0 MB | Modified: 2025-11-23 19:00:41 | Attributes: Archive
+            strings.xml | Size: 0 MB | Modified: 2025-11-23 19:00:41 | Attributes: Archive
+            styles.xml | Size: 0 MB | Modified: 2025-11-23 19:00:41 | Attributes: Archive
+          values-night | Size: DIR | Modified: 2025-11-23 19:00:41 | Attributes: Directory
+            colors.xml | Size: 0 MB | Modified: 2025-11-23 19:00:41 | Attributes: Archive
+  build.gradle | Size: 0 MB | Modified: 2025-11-23 19:00:41 | Attributes: Archive
+  gradle | Size: DIR | Modified: 2025-11-23 19:00:39 | Attributes: Directory
+    wrapper | Size: DIR | Modified: 2025-11-23 19:00:39 | Attributes: Directory
+      gradle-wrapper.jar | Size: 0.04 MB | Modified: 1985-10-26 13:15:00 | Attributes: Archive
+      gradle-wrapper.properties | Size: 0 MB | Modified: 1985-10-26 13:15:00 | Attributes: Archive
+  gradle.properties | Size: 0 MB | Modified: 2025-11-23 19:00:41 | Attributes: Archive
+  gradlew | Size: 0.01 MB | Modified: 1985-10-26 13:15:00 | Attributes: Archive
+  gradlew.bat | Size: 0 MB | Modified: 1985-10-26 13:15:00 | Attributes: Archive
+  settings.gradle | Size: 0 MB | Modified: 2025-11-23 19:00:41 | Attributes: Archive
+App.js | Size: 0 MB | Modified: 2025-11-28 18:29:33 | Attributes: Archive
+app.json | Size: 0 MB | Modified: 2025-11-27 19:11:32 | Attributes: Archive
+assets | Size: DIR | Modified: 2025-11-22 12:10:19 | Attributes: Directory
+  adaptive-icon.png | Size: 0.02 MB | Modified: 1985-10-26 13:15:00 | Attributes: Archive
+  app.png | Size: 0.92 MB | Modified: 2025-11-22 11:36:30 | Attributes: Archive
+  favicon.png | Size: 0 MB | Modified: 1985-10-26 13:15:00 | Attributes: Archive
+  splash.png | Size: 0.02 MB | Modified: 2025-11-20 19:08:20 | Attributes: Archive
+index.js | Size: 0 MB | Modified: 2025-11-22 13:35:35 | Attributes: Archive
+package-lock.json | Size: 0.41 MB | Modified: 2025-11-23 15:57:24 | Attributes: Archive
+package.json | Size: 0 MB | Modified: 2025-11-23 19:00:39 | Attributes: Archive
+ProjectStructure.txt | Size: 0 MB | Modified: 2025-12-02 02:48:11 | Attributes: Archive
+ReactNativeNotesForProfessionals.docx | Size: 9.99 MB | Modified: 2025-11-22 14:49:30 | Attributes: Archive
+ScanProject.ps1 | Size: 0.01 MB | Modified: 2025-12-02 02:44:45 | Attributes: Archive
+screens | Size: DIR | Modified: 2025-11-28 18:22:19 | Attributes: Directory
+  screen1.js | Size: 0 MB | Modified: 2025-11-28 18:36:34 | Attributes: Archive
+  screen2.js | Size: 0 MB | Modified: 2025-11-29 09:49:27 | Attributes: Archive
+
+================================================================================
+Scan completed successfully!
+Total Project Size (excluding excluded folders/extensions): 11.69 MB

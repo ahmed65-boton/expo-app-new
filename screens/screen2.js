@@ -1,11 +1,19 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Button} from "react-native";
 
 export default function S() {
   console.log("setings loaded");
   return (
     <View style={styles.container}>
-      <Text>Placeholder text</Text>
+      <Text>Settings</Text>
+      <Button
+        onPress={() => {alert("Settings Button Pressed");
+          console.log("Settings Button Pressed");
+        }
+          
+        } title="hello">
+          <Text>click</Text>
+      </Button>
     </View>
   );
 
@@ -18,7 +26,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
       },
-      Text: {
+      text: {
         color: "blue",
         fontSize: 50,
       },
